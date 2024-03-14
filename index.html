@@ -2,83 +2,103 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- modern-normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <!-- css styles -->
     
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-d38fcee5.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+    <main>
+      <section class="benefits-section" id="benefits-section">
+  <div class="container">
+    <h3 class="benefits-title">Benefits of working with me</h3>
+    <ul class="benefits-list">
+      <li class="benefits-card-item">
+         <span class="benefits-icon"><a  href="">
+                      <svg class="benefits-icon-accent" width="24" height="24">
+                        <use href="../img/user-01.svg"></use></svg>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
+         </span>
+        <div class="benefits-box">
+          <h3 class="benefits-name">Expertise</h3>
+          <p class="benefits-text">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </div>
+      </li>
+      <li class="benefits-card-item">
+        <a class="benefits-icon" href="">
+                      <svg class="benefits-icon-accent" width="24" height="24">
+                        <use href="../img/user-01.svg"></use></svg>
+        <div class="benefits-box">
+          <h3 class="benefits-name">Communication</h3>
+          <p class="benefits-text">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </div>
+      </li>
+      <li class="benefits-card-item">
+        <a class="benefits-icon" href="">
+                      <svg class="benefits-icon-accent" width="24" height="24">
+                        <use href="../img/user-01.svg"></use></svg>
+        <div class="benefits-box">
+          <h3 class="benefits-name">Art</h3>
+          <p class="benefits-text">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </div>
+      </li>
+      <li class="benefits-card-item">
+         <a class="benefits-icon" href="">
+                      <svg class="benefits-icon-accent" width="24" height="24">
+                        <use href="../img/user-01.svg"></use></svg>
+        <div class="benefits-box">
+          <h3 class="benefits-name">Urgent execution</h3>
+          <p class="benefits-text">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </div>
       </li>
     </ul>
-  </nav>
-</header>
+    <button class="benefits-order-btn" type="button">Order the project</button>
+  </div>
+  
+</section>
 
-
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/vanilla-app-template/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
+      <section class="project-section">
+  <div class="project-swiper-container">
+    <div class="project-swiper-wrapper">
+      <div class="project-swiper-slide">Project 1</div>
+      <div class="project-swiper-slide">Project 2</div>
+      <div class="project-swiper-slide">Project 3</div>
     </div>
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/vanilla-app-template/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
+    <div class="project-swiper-pagination"></div>
+    <!-- Navigation buttons -->
+    <div class="project-swiper-button-prev">Prev</div>
+    <div class="project-swiper-button-next">Next</div>
   </div>
 </section>
 
+    </main>
+
+    <!-- Loads the specified .html file -->
 
     
   </body>
