@@ -1,14 +1,71 @@
-<section class="project-section">
-  <div class="project-swiper-container">
-    <div class="project-swiper-wrapper">
-      <div class="project-swiper-slide">Project 1</div>
-      <div class="project-swiper-slide">Project 2</div>
-      <div class="project-swiper-slide">Project 3</div>
-    </div>
+<section class="project-section" id="project-section">
+  <div class="container">
+    <h3 class="project-title">Projects</h3>
+    <div class="project-container">
+      <div class="project-first-container">
+        <div class="project-cirkle-container">
+          <ul class="project-circle-list">
+            <li class="project-circle-item">
+              <p class="project-circle"></p>
+              #react
+            </li>
+            <li class="project-circle-item">
+              <p class="project-circle"></p>
+              #js
+            </li>
+            <li class="project-circle-item">
+              <p class="project-circle"></p>
+              #node js
+            </li>
+            <li class="project-circle-item">
+              <p class="project-circle"></p>
+              #git
+            </li>
+          </ul>
+        </div>
 
+        <h3 class="project-text">
+          Programming Across Borders: Ideas, Technologies, Innovations
+        </h3>
+
+        <button
+          class="project-btn"
+          onclick="window.open('https://mtsiuniak.github.io/headliner-2024/', 
+            '_blank')"
+        >
+          See project
+        </button>
+      </div>
+
+      <div class="project-swiper-container">
+        <div class="project-swiper-wrapper">
+          <div class="project-swiper-slide">
+            <img
+              src="./img/project1.png"
+              alt="Image 1"
+              width="311"
+              height="195"
+            />
+          </div>
+          <div class="project-swiper-slide">
+            <img src="../img/project2.png" alt="Image 2" />
+          </div>
+          <div class="project-swiper-slide">
+            <img src="../img/project3.png" alt="Image 3" />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="project-swiper-pagination"></div>
-    <!-- Navigation buttons -->
-    <div class="project-swiper-button-prev">Prev</div>
-    <div class="project-swiper-button-next">Next</div>
+    <div class="project-swiper-button-left">
+      <svg class="project-arrow-left" width="24" height="24">
+        <use href="../img/icon.svg#icon-arrow-left-dark"></use>
+      </svg>
+    </div>
+    <div class="project-swiper-button-right">
+      <svg class="project-arrow-rifgt" width="24" height="24">
+        <use href="../img/icon.svg#icon-arrow-right-dark"></use>
+      </svg>
+    </div>
   </div>
 </section>
