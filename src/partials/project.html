@@ -40,18 +40,79 @@
       <div class="project-swiper-container">
         <div class="project-swiper-wrapper">
           <div class="project-swiper-slide">
-            <img
-              src="./img/project1.png"
-              alt="Image 1"
-              width="311"
-              height="195"
-            />
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/desktop&tablet/project-tab-desk1.jpg    1x,
+                  ./img/desktop&tablet/project-tab-desk1@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/mobile/project1mob.jpg    1x,
+                  ./img/mobile/project1mob@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/mobile/project1mob.jpg"
+                alt="Image 1"
+                loading="lazy"
+              />
+            </picture>
           </div>
           <div class="project-swiper-slide">
-            <img src="../img/project2.png" alt="Image 2" />
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/desktop&tablet/project-tab-desk2.jpg    1x,
+                  ./img/desktop&tablet/project-tab-desk2@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/mobile/project2mob.jpg    1x,
+                  ./img/mobile/project2mob@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/mobile/project2mob.jpg"
+                alt="Image 2"
+                loading="lazy"
+              />
+            </picture>
           </div>
           <div class="project-swiper-slide">
-            <img src="../img/project3.png" alt="Image 3" />
+            <picture>
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  ./img/desktop&tablet/project-tab-desk3.jpg    1x,
+                  ./img/desktop&tablet/project-tab-desk3@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width:767px)"
+                srcset="
+                  ./img/mobile/project3mob.jpg    1x,
+                  ./img/mobile/project3mob@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/mobile/project3mob.jpg"
+                alt="Image 1"
+                loading="lazy"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -60,14 +121,16 @@
     <div class="project-arrow-container">
       <ul class="project-arrow-list">
         <li class="project-arrow-item">
-          <svg class="project-arrow" width="24" height="24">
-            <use href="./img/icon.svg#icon-arrow-left-dark"></use>
-          </svg>
+          <a class="project-arrow-accent" href="">
+            <svg class="project-arrow" width="24" height="24">
+              <use href="./img/icon.svg#icon-arrow-left-dark"></use></svg
+          ></a>
         </li>
         <li class="project-arrow-item">
-          <svg class="project-arrow" width="24" height="24">
-            <use href="./img/icon.svg#icon-arrow-right-white"></use>
-          </svg>
+          <a class="project-arrow-accent" href="">
+            <svg class="project-arrow" width="24" height="24">
+              <use href="./img/icon.svg#icon-arrow-right-white"></use></svg
+          ></a>
         </li>
       </ul>
     </div>
