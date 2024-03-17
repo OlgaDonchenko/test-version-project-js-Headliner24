@@ -81,18 +81,14 @@ gap: 6px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding: 13px 18px 13px 18px;
 justify-content: flex-start;
-        }
-.project-circle{
-
-    color: rgb(28, 29, 32);
-
-    font-size: 16px;
+color: rgb(28, 29, 32);
+font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: -0.02em;
     text-align: left;
-    
-}
+        }
+
 .project-text {
   display: flex;
         color: rgb(28, 29, 32);
